@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MunichBlog - Adventure, Culture & Free Time</title>
+  <!-- Load Google Fonts -->
+  <link
+  href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap"
+  rel="stylesheet">  <!-- Load Styles -->
+  <link href="css/blog styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HTML Follows BEM naming conventions
+  IDs are only used for sections to connect menu achors to sections -->
+<header class="page__header">
+    <p class="highlight">Subscribe!</p>
+    <form id="subscription" action="">
+      <input id="name" type="text" name="name" class="formStyle" placeholder="Name (required)" required />
+      <input id="email" type="email" name="email" class="formStyle" placeholder="Email (required)" required />
+      <a id="sub" href="#" class="formButton">Subscribe</a>
+    </form>
+</header>
+<main>
+  <header class="main__hero">
+    <h1>MunichBlog </h1>
+    <h1>Freizeit in München </h1>
+  </header>
+    <!-- Each Section has an ID (used for the anchor) and
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <form id="subscription" action="">
+      <input id="name" type="text" name="name" class="formStyle" placeholder="Name (required)" required />
+      <input id="email" type="email" name="email" class="formStyle" placeholder="Email (required)" required />
+      <a id="sub" href="#" class="formButton">Subscribe</a>
+    </form>
+
+  <div id="all__containers">
+    <div id="allsections">
+      <section id="section1" >
+        <div class="landing__container">
+          <a href="file:///C:/Users/User/Desktop/Udacity%20Front%20End/Project 1 - blogpage/section1.html"
+            target="_blank" >
+          <h2 >Spring vom Georgenstein</h2>
+          <div class="blogPost">
+          <p>Der Georgenstein, früher auch Georgstein oder Georgenfels,
+            ist ein großer Felsblock im Flussbett der Isar östlich von Baierbrunn
+            im Landkreis München, der rund fünf Meter hoch aus dem Wasser ragt.
+            Der Stein stellte zur Zeit der Flößerei auf der Isar
+            ein gefürchtetes Hindernis dar. </p>
+
+            <img src="img/Georgenstein.jpg" alt="Stone in a river"> </img>
+
+          <p>Dieser Abschnitt der Isar, der bereits zum Unterlauf des Flusses gehört,
+              weist einige namenlose Kiesinseln rund 60 Meter flussabwärts und
+              150 Meter flussaufwärts des Steins auf, zwischen Flusskilometer 164,6
+              (Zusammenfluss von freier Isar und Isarkanal nördlich des Kraftwerkes Mühltal)
+              und Flusskilometer 162,5 (Baierbrunner Wehr), deren Betreten während
+              der Brutzeit kiesbrütender Vogelarten wie des Flussregenpfeifers
+              und des Flussuferläufers verboten ist.</p>
+
+            [...] Continue Reading.
+          </div></a>
+        </div>
+      </section>
+      <section id="section2" data-nav="Section 2">
+        <div class="landing__container">
+          <a href="file:///C:/Users/User/Desktop/Udacity%20Front%20End/Project 1 - blogpage/section2.html"
+            target="_blank" ><h2 >Lass dich im Eisbach treiben</h2>
+          <p> Das Schwimmen im Eisbach München ist offiziell verboten
+              und es passieren auch regelmäßig Unfälle. Wenn überhaupt,
+              sollte man nur mit Leuten ins Wasser, die sich auskennen und wissen,
+              wo der Ausstieg ist. Der Eisbach München ist eiskalt.
+              Es ist sinnvoll die Strecke mal abzulaufen </p>
+          <img src="img/surf.jpg" alt="Guy surfing in a river"> </img>
+          <p>Falls Ihr das Abenteuer trotzdem wagt, muss unbedingt jemand dabei
+              sein, der die Strecke kennt. Vor allem, damit Du den
+               Ausstieg nicht verpasst, da es sonst lebensgefährlich wird.
+               Ihr müsst selbst entscheiden und Ihr seid selbst verantwortlich.
+               Deswegen möchte ich im Folgenden zumindest so gut es geht aufklären.</p>
+
+               [...] Continue Reading.</a>
+        </div>
+      </section>
+      <section id="section3" data-nav="Section 3">
+        <div class="landing__container">
+          <a href="file:///C:/Users/User/Desktop/Udacity%20Front%20End/Project 1 - blogpage/section3.html"
+            target="_blank" >
+          <h2 >Section 3</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum metus faucibus lectus pharetra dapibus. Suspendisse potenti. Aenean aliquam elementum mi, ac euismod augue. Donec eget lacinia ex. Phasellus imperdiet porta orci eget mollis. Sed convallis sollicitudin mauris ac tincidunt. Donec bibendum, nulla eget bibendum consectetur, sem nisi aliquam leo, ut pulvinar quam nunc eu augue. Pellentesque maximus imperdiet elit a pharetra. Duis lectus mi, aliquam in mi quis, aliquam porttitor lacus. Morbi a tincidunt felis. Sed leo nunc, pharetra et elementum non, faucibus vitae elit. Integer nec libero venenatis libero ultricies molestie semper in tellus. Sed congue et odio sed euismod.</p>
+          <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
+          [...] Continue Reading.</a>
+        </div>
+      </section>
+      <section id="section4" data-nav="Section 4">
+        <div class="landing__container">
+          <a href="file:///C:/Users/User/Desktop/Udacity%20Front%20End/Project 1 - blogpage/section4.html"
+            target="_blank">
+          <h2 >Section 4</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum metus faucibus lectus pharetra dapibus. Suspendisse potenti. Aenean aliquam elementum mi, ac euismod augue. Donec eget lacinia ex. Phasellus imperdiet porta orci eget mollis. Sed convallis sollicitudin mauris ac tincidunt. Donec bibendum, nulla eget bibendum consectetur, sem nisi aliquam leo, ut pulvinar quam nunc eu augue. Pellentesque maximus imperdiet elit a pharetra. Duis lectus mi, aliquam in mi quis, aliquam porttitor lacus. Morbi a tincidunt felis. Sed leo nunc, pharetra et elementum non, faucibus vitae elit. Integer nec libero venenatis libero ultricies molestie semper in tellus. Sed congue et odio sed euismod.</p>
+
+          <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
+          [...] Continue Reading.</a>
+        </div>
+      </section>
+    </div>
+  <div id="information">
+    <section id="about">
+      <div class="info__container">
+        <h2 >About</h2>
+        <p class="highlight">München – eine Stadt, die berauscht, ernüchtert, beglückt, [...]</p>
+      </div>
+    </section>
+    <section id="archives">
+      <div class="info__container">
+        <h2 >Archives</h2>
+        <div><p class="highlight">2021</p>
+            <div class="year">
+              <p class="highlight"><a href="https://www.google.com" target="_blank">Jan 21</a></p>
+              <p class="highlight"><a href="https://www.google.com" target="_blank">Feb 21</a></p>
+              <p class="highlight"><a href="https://www.google.com" target="_blank">Mar 21</a></p>
+              <p class="highlight"><a href="https://www.google.com" target="_blank">Apr 21</a></p>
+              <p class="highlight"><a href="https://www.google.com" target="_blank">May 21</a></p>
+              <p class="highlight"><a href="https://www.google.com" target="_blank">Jun 21</a></p>
+              <p class="highlight"><a href="https://www.google.com" target="_blank">Jul 21</a> </p>
+              <p class="highlight"><a href="https://www.google.com" target="_blank">Aug 21</a></p>
+              <p class="highlight"><a href="https://www.google.com" target="_blank">Sep 21</a> </p>
+              <p class="highlight"><a href="https://www.google.com" target="_blank">Oct 21</a></p>
+              <p class="highlight"><a href="https://www.google.com" target="_blank">Nov 21</a></p>
+              <p class="highlight"><a href="https://www.google.com" target="_blank">Dec 21</a></p>
+            </div>
+          </div>
+        <div><p class="highlight">2020</p>
+            <div class="year">
+              <p class="highlight"><a href="https://www.google.com" target="_blank">Jan 20</a></p>
+              <p class="highlight"><a href="https://www.google.com" target="_blank">Feb 20</a></p>
+              <p class="highlight"><a href="https://www.google.com" target="_blank">Mar 20</a></p>
+              <p class="highlight"><a href="https://www.google.com" target="_blank">Apr 20</a></p>
+              <p class="highlight"><a href="https://www.google.com" target="_blank">May 20</a></p>
+              <p class="highlight"><a href="https://www.google.com" target="_blank">Jun 20</a></p>
+              <p class="highlight"><a href="https://www.google.com" target="_blank">Jul 20</a> </p>
+              <p class="highlight"><a href="https://www.google.com" target="_blank">Aug 20</a></p>
+              <p class="highlight"><a href="https://www.google.com" target="_blank">Sep 20</a> </p>
+              <p class="highlight"><a href="https://www.google.com" target="_blank">Oct 20</a></p>
+              <p class="highlight"><a href="https://www.google.com" target="_blank">Nov 20</a></p>
+              <p class="highlight"><a href="https://www.google.com" target="_blank">Dec 20</a></p>
+            </div>
+        </div>
+
+
+
+      </div>
+    </section>
+    <section id="Elsewhere">
+      <div class="info__container">
+        <h2>Social Media</h2>
+        <p>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <!-- Add font awesome icons -->
+        <a href= "https://www.facebook.com" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://www.twitter.com" class="fa fa-twitter" target="_blank"></a>
+        <a href="https://www.twitter.com" class="fa fa-instagram" target="_blank"></a>
+
+        </p>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+  </main>
+  <footer>
+    <p>&copy Udacity - Fernando Wagner
+
+    <!-- Add icon library -->
+
+    <!-- Add font awesome icons -->
+    <a href= "https://www.facebook.com" class="fa fa-facebook" target="_blank"></a>
+    <a href="https://www.twitter.com" class="fa fa-twitter" target="_blank"></a>
+    </p>
+  </footer>
+
+  <script src="js/app_page.js"></script>
+</body>
+
+</html>

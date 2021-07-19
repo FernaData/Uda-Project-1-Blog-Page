@@ -1,0 +1,87 @@
+/* ---- Base Rules ---- */
+body {
+    background: rgb(136,203,171);
+    background: linear-gradient(0deg, rgba(136,203,171,1) 0%, rgba(0,13,60,1) 100%);
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    color: #fff;
+}
+
+/* Typeography General*/
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    padding: 5px;
+    font-size: 1em;
+    margin-top:2px;
+    margin-bottom: 1px;
+    text-align: center;
+
+}
+
+p {
+    line-height: 1.5 em;
+    color: #eee;
+}
+
+ul {
+	list-style: none;
+}
+
+section h2 {
+    border-bottom: 1px solid #cc1;
+    font-family: 'Oxygen', Sans-Serif;
+    font-size: 3em;
+    color: #fff;
+}
+
+a {
+  color:white;
+  text-decoration: none;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 344px;
+}
+
+.highlight:hover {
+  cursor:pointer;
+  font-weight:bold;
+}
+
+#information h2 {
+    font-size: 1em;
+}
+
+@media only screen and (min-width: 35em){
+    h1 {
+        font-size: 7em;
+        margin: 20px 10px 30px
+
+    }
+}
+
+@media only screen and (min-width: 35em){
+    .landing__container {
+        max-width: 50em;
+        padding: 4em;
+    }
+}
+
+
+/* ---- Layout Rules ---- */
+main {
+    margin: 10vh 1em 10vh;
+}
+
+.main__hero {
+  max-width: 90%;
+}
+
+#allsections section {
+    min-height: 8vh;
+    flex-basis: 800px;
+}

@@ -1,0 +1,34 @@
+#all__containers {
+    display: block;
+}
+
+#information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    right: 2%;
+    top:100px;
+    position: fixed;
+    max-width: 10%;
+
+}
+
+.year {
+  /*grid*/
+  display: none;
+  justify-self: center;
+  grid-template-columns: auto;
+  grid-template-areas: "1 2 3"
+                       "4 5 6"
+                       "7 8 9"
+                       "10 11 12";
+}
+
+#allsections {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+}

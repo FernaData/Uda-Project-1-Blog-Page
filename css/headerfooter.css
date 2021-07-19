@@ -1,0 +1,22 @@
+/* Header Styles */
+.page__header {
+    background: #00008B;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+
+/* Footer Styles */
+footer {
+    background: #00008B;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    opacity:0.5;
+}
+
+footer:hover {
+  opacity:1;
+}
